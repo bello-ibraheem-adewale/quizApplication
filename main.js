@@ -1,3 +1,39 @@
+let surName = document.getElementById('input1')
+let firstName = document.getElementById('input2')
+let email = document.getElementById('input3')
+let password = document.getElementById('input4')
+
+
+
+
+
+
+function start() {
+    if(surName.value == "" && firstName.value == "" && email.value == "" && password.value == "") {
+        alert("please input in values")
+    }
+
+    else if (surName.value == ""){
+        alert("input in surname")
+    }
+    else if (firstName.value == ""){
+        alert("input in first name")
+    }
+    else if (email.value == "") {
+        alert("input in email")
+    }
+
+    else if (password.value == ""){
+        alert("input in password")
+    }
+document.getElementById('question').innerHTML = surName.value
+
+}
+
+
+
+
+
 const quizData = [
     {
         question: 'what is the capital of Nigeria ?',
@@ -73,4 +109,10 @@ const quizData = [
     }
     
 ] ;
+
+
+
+
+
+
 

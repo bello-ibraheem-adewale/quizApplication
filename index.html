@@ -10,14 +10,21 @@
         <h1>Quiz App</h1>
         <h2>Input your details and start the Quiz</h2>
             <div class="verify">
-                <input type="text" placeholder="Surname">
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Password">
+                <input id="input1" type="text" placeholder="Surname">
+                <input id="input2" type="text" placeholder="First name">
+                <input id="input3" type="text" placeholder="Email">
+                <input id="input4" type="password" placeholder="Password">
         
             </div> 
 
-            <div class="btn-start">Start Quiz</div>
+            <button class="btn-start" id="btn-start" onclick="start()">Start Quiz</button>
+
+
+
+            <div class="questions" id="questions">
+                
+            </div>
     </section>
+    <script src="main.js"></script>
 </body>
 </html>
